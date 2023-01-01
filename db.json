@@ -1,9 +1,11 @@
 {
+  "services": [{ id: 1, key: "ws", name: "АРМ", title: "АРМ", description: [], icon: "computer" }],
   "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
+    { "id": 1, key: 424997, status: 1, "title": "Setup software", "author": "user" }
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
+  "actions": [
+    { "id": 1, type: "status", "comment": "status complete", user: "User", "ticket": 424997 }
   ],
-  "profile": { "name": "typicode" }
+  "profile": { "name": "typicode" },
+  "tickets": []
 }
